@@ -108,32 +108,32 @@ const Navbar = () => {
           <div className='py-4 flex flex-col h-[60%] sm:h-[70%]'>
             <ul className='uppercase flex flex-col h-full justify-around'>
               <Link href='/'>
-                <li onClick={()=>setNav(false)} className='pb-2 sm:pb-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='pb-2 sm:pb-4 sm:text-sm'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 sm:text-sm'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 sm:text-sm'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 sm:text-sm'>
                   Projects
                 </li>
               </Link>
               {/* <Link href='/resume'>
-                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 sm:text-sm'>
                   Resume
                 </li>
               </Link> */}
               <Link href='/#contact'>
-                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 sm:text-sm'>
                   Contact
                 </li>
               </Link>
