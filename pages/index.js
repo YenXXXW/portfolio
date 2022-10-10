@@ -14,11 +14,6 @@ export default function Home() {
   
   return (
     <div>
-      <Head>
-        <title>Wais portfolio</title>
-        <meta name="description" content="Portfolio website of Wai" />
-        
-      </Head>
       <Main />
       <About />
       <Skills />
