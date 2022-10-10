@@ -16,11 +16,11 @@ const About = () => {
                     <p className='py-2 text-gray-600'>
                         Fascinated with how intricate programming can be I was quickly drawn
                         to learn more. I started learning javascript and how to write
-                        responsive web pages and  now spending my time building projects
+                        responsive web pages and now spending my time building projects
                          with React JS , NextJS and  learning new technologies.
                     </p>
-                    <p className='py-2 text-gray-600 underline cursor-pointer'>
-                    <Link href='/#projects'>Check out some of my latest projects.</Link>
+                    <p className='py-2 cursor-pointer no-underline text-blue-500'>
+                    <Link href='/#projects' >Check out some of my latest projects.</Link>
                     </p>
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl hidden md:flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>

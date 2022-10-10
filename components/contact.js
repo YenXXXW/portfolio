@@ -44,24 +44,24 @@ const Contact = () => {
                       <div className="grid md:grid-cols-2 gap-4 w-full py-4">
                         <div className="flex flex-col">
                           <label className="text-sm py-2">Name</label>
-                          <input className='border-2 rounded-lg p-3  border-gray-500'  type='text'></input>  
+                          <input className='border-2 rounded-lg p-2  border-gray-500'  type='text'></input>  
                         </div>
                         <div className="flex flex-col">
                           <label className="text-sm py-2">Phone Number</label>
-                          <input className='border-2 rounded-lg p-3  border-gray-500'  type='text'></input>  
+                          <input className='border-2 rounded-lg p-2  border-gray-500'  type='text'></input>  
                         </div>
                       </div>
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Email</label>
-                        <input className='border-2 rounded-lg p-3  border-gray-500'  type='email'></input>  
+                        <input className='border-2 rounded-lg p-2  border-gray-500'  type='email'></input>  
                       </div>
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Subject</label>
-                        <input className='border-2 rounded-lg p-3  border-gray-500'  type='text'></input>  
+                        <input className='border-2 rounded-lg p-2  border-gray-500'  type='text'></input>  
                       </div> 
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Message</label>
-                        <textarea className='border-2 rounded-lg p-3  border-gray-500' rows='10'></textarea>  
+                        <textarea className='border-2 rounded-lg p-2  border-gray-500' rows='5'></textarea>  
                       </div>                        
                       <button className="w-full p-4 text-gray-100 mt-4">Send button</button>
                       
