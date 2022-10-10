@@ -25,13 +25,23 @@ const Contact = () => {
                     <div>
                       <h3 className="pt-8 ">Connect with Me</h3>
                       <div className="flex items-center justify-around py-4">
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-3
-                        cursor-pointer hover:scale-105 ease-in duration-300">
-                          <BsFacebook size={30}/>
+                        <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                          <a 
+                          href="https://www.facebook.com/profile.php?id=100016784135387"
+                          rel="nonreferer"
+                          target="_blank"
+                          >
+                            <BsFacebook size={22}/> 
+                          </a>                          
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-3
-                        cursor-pointer hover:scale-105 ease-in duration-300">
-                          <AiOutlineMail size={30} />
+                        <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                          <a
+                          href="mailto:waiiiyannn56@gmail.com"
+                          target='_blank'
+                          rel="nonreferer"
+                          >
+                            <AiOutlineMail size={22} />
+                          </a>                          
                         </div>
                       </div>
                     </div>

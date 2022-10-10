@@ -162,7 +162,7 @@ const Navbar = () => {
                     </div>
                     <div className='p-2 cursor-pointer'>
                       <a
-                        href='/'
+                        href='mailto:waiiiyannn56@gmail.com'
                         target='_blank'
                         rel='noreferrer'
                       >
