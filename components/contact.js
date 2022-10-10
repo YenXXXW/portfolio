@@ -28,7 +28,7 @@ const Contact = () => {
                         <div className="p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                           <a 
                           href="https://www.facebook.com/profile.php?id=100016784135387"
-                          rel="nonreferer"
+                          rel="noreferer"
                           target="_blank"
                           >
                             <BsFacebook size={22}/> 
@@ -38,7 +38,7 @@ const Contact = () => {
                           <a
                           href="mailto:waiiiyannn56@gmail.com"
                           target='_blank'
-                          rel="nonreferer"
+                          rel="noreferer"
                           >
                             <AiOutlineMail size={22} />
                           </a>                          
