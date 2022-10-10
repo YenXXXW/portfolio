@@ -95,8 +95,8 @@ const Navbar = () => {
             : 'fixed left-[-100%] top-0 ease-in duration-500 '
           }
         >
-          <div className='w-full bg-orange-300 '>
-            <div className='flex w-full items-center justify-between bg-slate-400'>
+          <div className='w-full'>
+            <div className='flex w-full items-center justify-between'>
               <div
                 className=' p-2 cursor-pointer ml-auto'
                 onClick={()=>setNav(false)}
@@ -105,8 +105,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className='py-4 bg-cyan-400 flex flex-col h-[70%]'>
-            <ul className='uppercase flex flex-col h-full justify-around bg-red-400'>
+          <div className='py-4 flex flex-col h-[60%] sm:h-[70%]'>
+            <ul className='uppercase flex flex-col h-full justify-around'>
               <Link href='/'>
                 <li onClick={()=>setNav(false)} className='pb-2 sm:pb-4 text-sm'>
                   Home
