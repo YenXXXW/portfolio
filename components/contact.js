@@ -40,11 +40,16 @@ const Contact = () => {
                 </div>
                 <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                   <div className="p-4">
-                    <form>
+                    <form  action="https://formsubmit.co/814284200edc7c41723e7d12fab0d24d" method="POST">
                       <div className="grid md:grid-cols-2 gap-4 w-full py-4">
                         <div className="flex flex-col">
                           <label className="text-sm py-2">Name</label>
-                          <input className='border-2 rounded-lg p-2  border-gray-500'  type='text'></input>  
+                          <input
+                           required 
+                           type='text'
+                           name='Name'
+                           className='border-2 rounded-lg p-2  border-gray-500'
+                          />  
                         </div>
                         <div className="flex flex-col">
                           <label className="text-sm py-2">Phone Number</label>
@@ -53,17 +58,32 @@ const Contact = () => {
                       </div>
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Email</label>
-                        <input className='border-2 rounded-lg p-2  border-gray-500'  type='email'></input>  
+                        <input
+                           required 
+                           type='text'
+                           name='Email'
+                           className='border-2 rounded-lg p-2  border-gray-500'
+                        />
                       </div>
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Subject</label>
-                        <input className='border-2 rounded-lg p-2  border-gray-500'  type='text'></input>  
+                        <input
+                           required 
+                           type='text'
+                           name='Subject'
+                           className='border-2 rounded-lg p-2  border-gray-500'
+                        />
                       </div> 
                       <div className="flex flex-col">
                         <label className="text-sm py-2">Message</label>
-                        <textarea className='border-2 rounded-lg p-2  border-gray-500' rows='5'></textarea>  
+                        <textarea
+                         className='border-2 rounded-lg p-2  border-gray-500' 
+                         rows='5' 
+                         required 
+                         name ="Message"
+                        />  
                       </div>                        
-                      <button className="w-full p-4 text-gray-100 mt-4">Send button</button>
+                      <button className="w-full p-4 text-gray-100 mt-4">Send</button>
                       
                     </form>
                     

@@ -8,14 +8,14 @@ const About = () => {
                     <p className="text-blue-500 text-2xl">ABOUT</p>
                     <h2>Who I Am</h2>
                     <p className='py-2 text-gray-600'>
-                        / / I am a hardworking web developer
+                        I am a enthusiastic web developer
                     </p>
                     <p className='py-2 text-gray-600'>
-                        I am an ece student who is currently self studying frontend web development 
+                        An ECE student who is currently self studying frontend web development 
                     </p>
                     <p className='py-2 text-gray-600'>
                         Fascinated with how intricate programming can be I was quickly drawn
-                        to learn more. I started learning javascript and how to write
+                        to learn more. I started learning javascript ,then how to write
                         responsive web pages and now spending my time building projects
                          with React JS , NextJS and  learning new technologies.
                     </p>

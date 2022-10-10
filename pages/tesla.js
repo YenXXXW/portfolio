@@ -35,7 +35,7 @@ const Tesla = () => {
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://tesla-tailwind-igj8kppb5-yenxxxw.vercel.app/'
+                        href='https://tesla-tailwind.vercel.app/'
                         target='_blank'
                         rel='noreferrer'
                     >

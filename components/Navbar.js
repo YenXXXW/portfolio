@@ -43,30 +43,30 @@ const Navbar = () => {
     <div style={{backgroundColor:`${navBg}`}}
       className={
         shadow
-          ? 'fixed w-full h-10 sm:h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-10 sm:h-20 z-[100]'
+          ? 'fixed w-full h-10 sm:h-16 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-10 sm:h-16 z-[100]'
       }
     >
       <div className='flex md:justify-center items-center w-full h-full px-2 2xl:px-16'>
         
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-blue-600'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-blue-600'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-blue-600'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-blue-600'>
               <Link href='/#projects'>Projects</Link>
             </li>
             {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li> */}
-            <li className='mx-10 text-sm uppercase hover:border-b'>
+            <li className='mx-10 text-sm uppercase hover:text-blue-600'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -91,12 +91,12 @@ const Navbar = () => {
         {/* Side Drawer Menu */}
         <div
           className={
-            nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 py-4 ease-in duration-500 grid justify-items-start'
-            : 'fixed left-[-100%] top-0 ease-in duration-500 grid justify-items-start'
+            nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 py-4 ease-in duration-500 '
+            : 'fixed left-[-100%] top-0 ease-in duration-500 '
           }
         >
-          <div className='w-full'>
-            <div className='flex w-full items-center justify-between'>
+          <div className='w-full bg-orange-300 '>
+            <div className='flex w-full items-center justify-between bg-slate-400'>
               <div
                 className=' p-2 cursor-pointer ml-auto'
                 onClick={()=>setNav(false)}
@@ -105,8 +105,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className='py-4 flex flex-col'>
-            <ul className='uppercase grid justify-items-start'>
+          <div className='py-4 bg-cyan-400 flex flex-col h-[70%]'>
+            <ul className='uppercase flex flex-col h-full justify-around bg-red-400'>
               <Link href='/'>
                 <li onClick={()=>setNav(false)} className='pb-2 sm:pb-4 text-sm'>
                   Home
@@ -127,11 +127,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              {/* <Link href='/resume'>
                 <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Resume
                 </li>
-              </Link>
+              </Link> */}
               <Link href='/#contact'>
                 <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Contact
