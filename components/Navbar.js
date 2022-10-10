@@ -43,11 +43,11 @@ const Navbar = () => {
     <div style={{backgroundColor:`${navBg}`}}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? 'fixed w-full h-10 sm:h-20 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-10 sm:h-20 z-[100]'
       }
     >
-      <div className='flex justify-center items-center w-full h-full px-2 2xl:px-16'>
+      <div className='flex md:justify-center items-center w-full h-full px-2 2xl:px-16'>
         
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick = {()=>setNav(true)}
-            className='cursor-pointer md:hidden'
+            className='cursor-pointer md:hidden ml-3 '
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -95,79 +95,88 @@ const Navbar = () => {
             : 'fixed left-[-100%] top-0 ease-in duration-500 grid justify-items-start'
           }
         >
-          <div >
+          <div className='w-full'>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
-                <a>
-                  <Image
-                    src={'/logo.png'}
-                    width='70'
-                    height='35'
-                    alt='/'
-                  />
-                </a>
-              </Link>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'
+                className=' p-2 cursor-pointer ml-auto'
                 onClick={()=>setNav(false)}
               >
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300'>
-              <p className='w-[85%] md:w-[90%] pb-2'>
-                Let&#39;s build something legendary together
-              </p>
-            </div>
           </div>
-          <div className='py-4 flex flex-col '>
+          <div className='py-4 flex flex-col'>
             <ul className='uppercase grid justify-items-start'>
               <Link href='/'>
-                <li onClick={()=>setNav(false)} className='pb-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='pb-2 sm:pb-4 text-sm'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Projects
                 </li>
               </Link>
               <Link href='/resume'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Resume
                 </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={()=>setNav(false)} className='py-4 text-sm'>
+                <li onClick={()=>setNav(false)} className='py-3 sm:py-4 text-sm'>
                   Contact
                 </li>
               </Link>
             </ul>            
           </div>
-          <div className='pt-4 w-[80%]'>
-                <p className='uppercase tracking-widest text-[#5651e5] mb-3'>Let&#39;s connect</p>
+          <div className='pt-4 w-full'>
+                <p className='uppercase tracking-widest text-[#5651e5] text-sm mb-3'>Let&#39;s connect</p>
                 <div className='flex justify-between '>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'>
+                    <div className='p-2 cursor-pointer'>
+                      <a
+                        href='https://www.linkedin.com/in/wai-yan-395369252/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         <FaLinkedinIn />
+                      </a>  
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'>
+                    <div className='p-2 cursor-pointer'>
+                      <a
+                        href='https://github.com/YenXXXW?tab=repositories'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         <FaGithub />
+                      </a>  
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'>
+                    <div className='p-2 cursor-pointer'>
+                      <a
+                        href='/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         <AiOutlineMail />
+                      </a>  
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'>
+                    <div className=' p-2 cursor-pointer'>
+                      <a
+                        href='/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         <BsFillPersonLinesFill />
+                      </a>  
                     </div>
                 </div>
             </div>

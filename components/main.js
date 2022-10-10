@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail ,AiOutlineLinkedin } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-gray-600 mt-4'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
@@ -20,14 +20,23 @@ const Main = () => {
             I&#39;m focused on building responsive front-end web applications while
             learning back-end technologies.
           </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-between max-w-[330px] mx-auto mt-20 py-4'>
             <a
-              href='/'
+              href='https://www.linkedin.com/in/wai-yan-395369252/'
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
+              <div className=' p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineLinkedin size='23' />
+              </div>
+            </a>
+            <a
+              href='https://github.com/YenXXXW?tab=repositories'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className=' cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaGithub  size='22' />
               </div>
             </a>
             <a
@@ -35,20 +44,19 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
+              <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail  size='22'/>
               </div>
             </a>
-            <Link href='/'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
+            <a
+              href='/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
+                <BsFillPersonLinesFill  size='22'/>
               </div>
-            </Link>
-            <Link href='/'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
