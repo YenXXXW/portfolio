@@ -48,7 +48,7 @@ const Main = () => {
                 <AiOutlineMail  size='22'/>
               </div>
             </a>
-            <a
+            {/* <a
               href='/'
               target='_blank'
               rel='noreferrer'
@@ -56,7 +56,7 @@ const Main = () => {
               <div className='cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill  size='22'/>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

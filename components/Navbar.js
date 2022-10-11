@@ -169,7 +169,7 @@ const Navbar = () => {
                         <AiOutlineMail />
                       </a>  
                     </div>
-                    <div className=' p-2 cursor-pointer'>
+                    {/* <div className=' p-2 cursor-pointer'>
                       <a
                         href='/'
                         target='_blank'
@@ -177,7 +177,7 @@ const Navbar = () => {
                       >
                         <BsFillPersonLinesFill />
                       </a>  
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
