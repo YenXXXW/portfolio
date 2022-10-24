@@ -1,41 +1,39 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import NEWS from '../public/projects/news.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-const News = () => {
+const Netflix = () => {
     return (
-        <div className="w-full">
-            <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-                <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh]
-                bg-black/80 z-10" />
-                <Image className='absolute z-1' layout='fill' objectFit='cover' src={NEWS}/>
+        <div className="w-full ">
+            <div className="w-full h-[40vh] lg:h-[50vh] relative">
+                <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[50vh]
+                bg-black/40 z-10" />
+                <Image className='absolute z-1' layout='fill' objectFit='cover' src='https://cdn.mos.cms.futurecdn.net/Yy247gYvzaMZXprhZHXy4E.jpg'/>
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%]
                 translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2>Google News</h2>
-                    <h3>ReactJS / NextJS/ TailWind CSS /Netlify </h3>
+                    <h2>Netflix</h2>
+                    <h3>ReactJS / NextJS/ TailWind CSS /Rest API</h3>
                 </div>
             </div>
-            <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 '>
+            <div className='max-w-[1240px] mx-auto p-10 grid md:grid-cols-5 gap-8 pt-8 '>
                 <div className='col-span-4'>
                     <h4>Project</h4>
                     <h2>Overview</h2>
-                    <div>
-                        The app was built using <span className='text-[#5651e5]'>ReactJs</span> and <span className='text-[#5651e5]'>Netlify</span>and hosted on <span className='text-[#5651e5]'>Netlify</span>.                        
-                        Users are able to see the latest News with the help
-                        of Google Api .Users will be able to see the news related to 
-                        certain topics and will also be able to search by title after 
-                        logging in.Netlify is used for user authentication.
+                    <div className='max-w-2xl my-4'>
+                        A Nextjs netflix clone project.Hosted on <span className='text-[#5651e5]'>Vercel </span>
+                        and cosumes the api provided by TMDB.Can view the real time movie data eg. Trending Movies,
+                        best rated movies , the plot summary etc.                         
+                        
                     </div>
                     <a
-                        href='https://github.com/YenXXXW/news-tailwind'
+                        href='https://github.com/YenXXXW/Netflix'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://googlenews-clone-by-wai.netlify.app'
+                        href='https://netflix-by-wai.vercel.app/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -49,11 +47,11 @@ const News = () => {
                             <div className='grid grid-cols-2 md:grid-cols-1'>
                                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>ReactJS</p>
                             
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>Google API</p>
+                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>TMDB API</p>
                             
                                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>Tailwind CSS</p>
                             
-                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>Netlify</p>
+                                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='mr-2'/>NextJS</p>
                             </div>
                                                 
                     </div>
@@ -63,9 +61,9 @@ const News = () => {
                 <div className='flex justify-center mt-5 cursor-pointer'>
                     <p className='text-gray-500 text-md font-bold'>Back</p>
                 </div> 
-            </Link>            
+            </Link> 
         </div>
     );
 }
  
-export default News;
+export default Netflix;

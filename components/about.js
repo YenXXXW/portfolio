@@ -5,15 +5,15 @@ const About = () => {
         <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2 ml-3">
-                    <p className="text-blue-500 text-2xl">ABOUT</p>
+                    <p className="description text-blue-500 text-2xl">ABOUT</p>
                     <h2>Who I Am</h2>
-                    <p className='py-2 text-gray-600'>
+                    <p className='py-2 '>
                         I am a enthusiastic web developer
                     </p>
-                    <p className='py-2 text-gray-600'>
+                    <p className='py-2 '>
                         An ECE student who is currently self studying frontend web development 
                     </p>
-                    <p className='py-2 text-gray-600'>
+                    <p className='py-2 '>
                         Fascinated with how intricate programming can be I was quickly drawn
                         to learn more. I started learning javascript ,then how to write
                         responsive web pages and now spending my time building projects

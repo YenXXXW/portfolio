@@ -9,21 +9,32 @@ const Projects = () => {
                 <h2 className='py-4'>What I&#39;ve built</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     <ProjectItem
+                     title='Netflix'
+                     background='/projects/netflix.webp'
+                     skill='ReactJS+NextJs'
+                     projectURL='/netflix'
+                    />
+                    <ProjectItem
                      title='Google News'
                      background='/projects/news.jpg'
                      skill='ReactJS+NextJs'
                      projectURL='/news'
-                     />
+                    />
+                    <ProjectItem
+                     title='Quiz game'
+                     background='https://files.realpython.com/media/Build-a-Quiz-Application_Watermarked.373436013115.jpg'
+                     skill='ReactJS+Typescript'
+                     projectURL='/reactQuiz'
+                    />
 
                     <ProjectItem
                      title='Tesla'
                      background='/projects/tesla.png'
                      skill='ReactJS+NextJs'
                      projectURL='/tesla'
-                     />
+                    />                     
                 </div>
             </div>
-
         </div>
     );
 }
