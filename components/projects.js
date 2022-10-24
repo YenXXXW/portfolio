@@ -22,7 +22,7 @@ const Projects = () => {
                     />
                     <ProjectItem
                      title='Quiz game'
-                     background='https://files.realpython.com/media/Build-a-Quiz-Application_Watermarked.373436013115.jpg'
+                     background='https://bgr.com/wp-content/uploads/2022/03/Trivia-Quest.jpg?quality=82&strip=all'
                      skill='ReactJS+Typescript'
                      projectURL='/reactQuiz'
                     />
