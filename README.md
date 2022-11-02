@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About the Project
+
+This is Wai's protfolio page created using **NextJS** 
+
+The project includes 
+* home page
+* about
+* skills
+* projects 
+* contact <br/>
+pages
+
+
 
 ## Getting Started
 
