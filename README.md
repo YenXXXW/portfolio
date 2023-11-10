@@ -10,8 +10,6 @@ The project includes
 * contact <br/>
 pages
 
-
-
 ## Getting Started
 
 First, run the development server:

@@ -3,27 +3,29 @@ import Link from "next/link";
 import NEWS from "../public/projects/news.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const News = () => {
+const PriceList = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div
           className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh]
-                bg-black/80 z-10"
+            bg-black/80 z-10"
         />
         <Image
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={NEWS}
-          alt="NewsImage"
+          src={
+            "https://static.vecteezy.com/system/resources/thumbnails/008/558/936/small/landing-page-product-package-price-for-website-price-chart-template-business-plan-pricing-list-gradient-color-vector.jpg"
+          }
+          alt="PriceListImage"
         />
         <div
           className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%]
-                translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2"
+            translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2"
         >
-          <h2>Google News</h2>
-          <h3>ReactJS / NextJS/ TailWind CSS /Netlify </h3>
+          <h2>Price List</h2>
+          <h3>ReactJS/ ExpressJs/ MongoDb/ Nodejs/ TailWind CSS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 ">
@@ -34,21 +36,21 @@ const News = () => {
             The app was built using{" "}
             <span className="text-[#5651e5]">ReactJs</span> and{" "}
             <span className="text-[#5651e5]">Netlify</span>and hosted on{" "}
-            <span className="text-[#5651e5]">Netlify</span>. Users are able to
-            see the latest News with the help of Google Api .Users will be able
-            to see the news related to certain topics and will also be able to
-            search by title after logging in.Netlify is used for user
-            authentication.
+            <span className="text-[#5651e5]">Netlify</span>A MERN stack
+            application that helps the client to note down the product prices.
+            Whenever needed the client can easily view their product prices
+            immedaitely with the search funality. Also includes the user
+            authentication system for different users.
           </div>
           <a
-            href="https://github.com/YenXXXW/news-tailwind"
+            href="https://github.com/YenXXXW/Price-Tracker"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://googlenews-clone-by-wai.netlify.app"
+            href="https://price-list-yenxxxw.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -66,17 +68,25 @@ const News = () => {
 
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-2" />
-                Google API
+                Typescript
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-2" />
-                Tailwind CSS
+                ExpressJs
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-2" />
-                Netlify
+                MongoDb
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="mr-2" />
+                Nodejs
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="mr-2" />
+                Tailwind Css
               </p>
             </div>
           </div>
@@ -91,4 +101,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default PriceList;
