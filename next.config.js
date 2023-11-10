@@ -3,8 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['play-lh.googleusercontent.com' , "bgr.com" ,"cdn.mos.cms.futurecdn.net"],
+    domains: [
+      "play-lh.googleusercontent.com",
+      "bgr.com",
+      "cdn.mos.cms.futurecdn.net",
+      "static.vecteezy.com",
+    ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 const PriceList = () => {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div
           className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh]
@@ -28,7 +28,7 @@ const PriceList = () => {
           <h3>ReactJS/ ExpressJs/ MongoDb/ Nodejs/ TailWind CSS</h3>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 ">
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-5 pt-8 ">
         <div className="col-span-4">
           <h4>Project</h4>
           <h2>Overview</h2>
