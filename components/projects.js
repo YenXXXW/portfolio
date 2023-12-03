@@ -14,10 +14,10 @@ const Projects = () => {
             projectURL="/netflix"
           />
           <ProjectItem
-            title="Price list"
-            background="https://static.vecteezy.com/system/resources/thumbnails/008/558/936/small/landing-page-product-package-price-for-website-price-chart-template-business-plan-pricing-list-gradient-color-vector.jpg"
-            skill="ReactJS+ExpressJs+MongoDb+NodeJs"
-            projectURL="/priceList"
+            title="lister"
+            background="/projects/lister.png"
+            skill="Next.js+MongoDb+NodeJs"
+            projectURL="/lister"
           />
           <ProjectItem
             title="Google News"
